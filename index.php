@@ -18,9 +18,9 @@
         exit('Error abriendo carta.xml');
     }
 ?>
-<div class="container">
-    <div class="col-1">
-    <h1> Tapas </h1>
+<div class="container"> <!-- Apertura div general-->
+    <div class="col-1"> <!-- Apertura col-1-->
+     <h1> Tapas </h1> <!-- Parte de Tapas-->
         <?php
             //foreach para las tapas
             foreach($platos ->plato as $fila ){
@@ -51,11 +51,11 @@
             }
         }
         ?>
-    </div>
-</div> 
-<div class="container">
-    <div class="col-2">
-    <h1> Primeros </h1>
+    </div> <!-- Cierre col-1-->
+
+
+    <div class="col-2"> <!-- Apertura col-2-->
+    <h1> Primeros </h1> <!-- Parte de primeros-->
         <?php
             //foreach para primeros
             foreach($platos ->plato as $fila ){
@@ -86,7 +86,105 @@
             }
         }
         ?>
-    </div>
+        <h1> Segundos </h1>  <!-- Parte de segundos-->
+        <?php
+            //foreach para segundos
+            foreach($platos ->plato as $fila ){
+                if((string)$fila['tipo'] == "segundos"  ){
+                    echo $fila->nombre . " " .$fila->precio . "€ <br>";
+                    echo $fila->descripcion . " Calorías: " . $fila->calorias;
+                    foreach($fila->caracteristicas->item as $caracteristica){
+                        if($caracteristica == "sin gluten"  ){
+                            echo '<i class="fa-solid fa-wheat-awn-circle-exclamation"></i>';
+                        }
+                        if($caracteristica == "lácteo"  ){
+                            echo '<i class="fa-solid fa-cow"></i>';
+                        }
+                        if($caracteristica == "vegano"  ){
+                            echo '<i class="fa-solid fa-seedling"></i>';
+                        }
+                        if($caracteristica == "frutos secos"  ){
+                            echo '<i class="fa-solid fa-stroopwafel"></i>';
+                        }
+                        if($caracteristica == "vino"  ){
+                            echo '<i class="fa-solid fa-wine-glass"></i>';
+                        }
+                        if($caracteristica == "vino blanco"  ){
+                            '<i class="fa-solid fa-wine-glass-empty"></i>';
+                        }
+                    }
+                    echo "<br>";
+            }
+        }
+        ?>
+
+    </div>  <!-- Cierre col-2-->
+
+    <div class="col-3">  <!-- Abro col-3-->
+    <h1> Postres </h1>  <!-- Parte de postres-->
+        <?php
+            //foreach para postres
+            foreach($platos ->plato as $fila ){
+                if((string)$fila['tipo'] == "postre"  ){
+                    echo $fila->nombre . " " .$fila->precio . "€ <br>";
+                    echo $fila->descripcion . " Calorías: " . $fila->calorias;
+                    foreach($fila->caracteristicas->item as $caracteristica){
+                        if($caracteristica == "sin gluten"  ){
+                            echo '<i class="fa-solid fa-wheat-awn-circle-exclamation"></i>';
+                        }
+                        if($caracteristica == "lácteo"  ){
+                            echo '<i class="fa-solid fa-cow"></i>';
+                        }
+                        if($caracteristica == "vegano"  ){
+                            echo '<i class="fa-solid fa-seedling"></i>';
+                        }
+                        if($caracteristica == "frutos secos"  ){
+                            echo '<i class="fa-solid fa-stroopwafel"></i>';
+                        }
+                        if($caracteristica == "vino"  ){
+                            echo '<i class="fa-solid fa-wine-glass"></i>';
+                        }
+                        if($caracteristica == "vino blanco"  ){
+                            '<i class="fa-solid fa-wine-glass-empty"></i>';
+                        }
+                    }
+                    echo "<br>";
+            }
+        }
+        ?>
+
+    <h1> Vinos</h1> <!-- Parte de vinos-->
+        <?php
+            //foreach para vinos
+            foreach($platos ->plato as $fila ){
+                if((string)$fila['tipo'] == "vino"  ){
+                    echo $fila->nombre . " " .$fila->precio . "€ <br>";
+                    echo $fila->descripcion . " Calorías: " . $fila->calorias;
+                    foreach($fila->caracteristicas->item as $caracteristica){
+                        if($caracteristica == "sin gluten"  ){
+                            echo '<i class="fa-solid fa-wheat-awn-circle-exclamation"></i>';
+                        }
+                        if($caracteristica == "lácteo"  ){
+                            echo '<i class="fa-solid fa-cow"></i>';
+                        }
+                        if($caracteristica == "vegano"  ){
+                            echo '<i class="fa-solid fa-seedling"></i>';
+                        }
+                        if($caracteristica == "frutos secos"  ){
+                            echo '<i class="fa-solid fa-stroopwafel"></i>';
+                        }
+                        if($caracteristica == "vino"  ){
+                            echo '<i class="fa-solid fa-wine-glass"></i>';
+                        }
+                        if($caracteristica == "vino blanco"  ){
+                            '<i class="fa-solid fa-wine-glass-empty"></i>';
+                        }
+                    }
+                    echo "<br>";
+            }
+        }
+        ?>
+    </div>  <!-- Cierre col-3-->
 </div> 
 <!-- Link a Fontawesome-->
 <script src="https://kit.fontawesome.com/b6f7ad7f68.js" crossorigin="anonymous"></script>

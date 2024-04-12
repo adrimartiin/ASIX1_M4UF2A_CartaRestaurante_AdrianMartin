@@ -10,7 +10,16 @@
     width: 33.3%;
     border:1px solid black;
 }
-
+.col-2{
+    background-color: red;
+    width: 33.3%;
+    border:1px solid black;
+}
+.col-3{
+    background-color: blueviolet;
+    width: 33.3%;
+    border:1px solid black;
+}
 
 
 
