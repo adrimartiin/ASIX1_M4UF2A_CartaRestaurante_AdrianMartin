@@ -4,7 +4,7 @@
     <plato tipo="tapas">
       <nombre>Tortilla Española</nombre>
       <precio>3.50</precio>
-      <descripcion>Clásica tortilla de patatas española.</descripcion>
+      <descripcion>Clásica tortilla de patatas española</descripcion>
       <calorias>200</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -15,7 +15,7 @@
     <plato tipo="tapas">
       <nombre>Gambas al ajillo</nombre>
       <precio>7.00</precio>
-      <descripcion>Gambas salteadas en aceite de oliva con ajo y guindilla.</descripcion>
+      <descripcion>Gambas salteadas en aceite de oliva con ajo y guindilla</descripcion>
       <calorias>180</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -25,7 +25,7 @@
     <plato tipo="tapas">
       <nombre>Pimientos de Padrón</nombre>
       <precio>4.00</precio>
-      <descripcion>Pimientos de Padrón fritos con sal gorda.</descripcion>
+      <descripcion>Pimientos de Padrón fritos con sal gorda</descripcion>
       <calorias>120</calorias>
       <caracteristicas>
         <item>vegano</item>
@@ -35,7 +35,7 @@
     <plato tipo="tapas">
       <nombre>Patatas Bravas</nombre>
       <precio>5.50</precio>
-      <descripcion>Patatas fritas acompañadas de salsa brava y alioli.</descripcion>
+      <descripcion>Patatas fritas acompañadas de salsa brava y alioli</descripcion>
       <calorias>250</calorias>
       <caracteristicas>
         <item>sin gluten</item> 
@@ -45,7 +45,7 @@
     <plato tipo="tapas">
       <nombre>Jamón Ibérico</nombre>
       <precio>12.00</precio>
-      <descripcion>Finas lonchas de jamón ibérico de bellota.</descripcion>
+      <descripcion>Finas lonchas de jamón ibérico de bellota</descripcion>
       <calorias>180</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -55,7 +55,7 @@
     <plato tipo="tapas">
       <nombre>Boquerones en vinagre</nombre>
       <precio>6.00</precio>
-      <descripcion>Boquerones marinados en vinagre y aceite de oliva.</descripcion>
+      <descripcion>Boquerones marinados en vinagre y aceite de oliva</descripcion>
       <calorias>160</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -65,7 +65,7 @@
     <plato tipo="tapas">
       <nombre>Calamares a la romana</nombre>
       <precio>8.00</precio>
-      <descripcion>Calamares rebozados y fritos, acompañados de limón.</descripcion>
+      <descripcion>Calamares rebozados y fritos, acompañados de limón</descripcion>
       <calorias>280</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -75,7 +75,7 @@
     <plato tipo="tapas">
       <nombre>Chorizo al infierno</nombre>
       <precio>6.50</precio>
-      <descripcion>Chorizo picante cocinado en vino tinto.</descripcion>
+      <descripcion>Chorizo picante cocinado en vino tinto</descripcion>
       <calorias>220</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -85,7 +85,7 @@
     <plato tipo="tapas">
       <nombre>Queso Manchego</nombre>
       <precio>9.00</precio>
-      <descripcion>Lonchas de queso manchego servidas con membrillo.</descripcion>
+      <descripcion>Lonchas de queso manchego servidas con membrillo</descripcion>
       <calorias>150</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -99,7 +99,7 @@
     <plato tipo="primeros">
       <nombre>Gazpacho</nombre>
       <precio>5.00</precio>
-      <descripcion>Sopa fría de tomate, pimiento, pepino, cebolla y ajo.</descripcion>
+      <descripcion>Sopa fría de tomate, pimiento, pepino, cebolla y ajo</descripcion>
       <calorias>120</calorias>
       <caracteristicas>
         <item>vegano</item>
@@ -110,7 +110,7 @@
     <plato tipo="primeros">
       <nombre>Ensalada César</nombre>
       <precio>7.50</precio>
-      <descripcion>Lechuga, croutones, queso parmesano, pollo a la parrilla y aderezo César.</descripcion>
+      <descripcion>Lechuga, croutones, queso parmesano, pollo a la parrilla y aderezo César</descripcion>
       <calorias>320</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -121,7 +121,7 @@
     <plato tipo="primeros">
       <nombre>Salmorejo</nombre>
       <precio>6.00</precio>
-      <descripcion>Crema fría de tomate, pan, aceite de oliva, ajo y vinagre, acompañada de huevo duro y jamón.</descripcion>
+      <descripcion>Crema fría de tomate, pan, aceite de oliva, ajo y vinagre, acompañada de huevo duro y jamón</descripcion>
       <calorias>280</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -131,7 +131,7 @@
     <plato tipo="primeros">
       <nombre>Revuelto de setas</nombre>
       <precio>8.00</precio>
-      <descripcion>Revuelto de huevos con una variedad de setas.</descripcion>
+      <descripcion>Revuelto de huevos con una variedad de setas</descripcion>
       <calorias>250</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -141,7 +141,7 @@
     <plato tipo="primeros">
       <nombre>Croquetas de bacalao</nombre>
       <precio>7.50</precio>
-      <descripcion>Croquetas caseras de bacalao cremosas por dentro y crujientes por fuera.</descripcion>
+      <descripcion>Croquetas caseras de bacalao cremosas por dentro y crujientes por fuera</descripcion>
       <calorias>220</calorias>
       <caracteristicas>
         <item>lácteo</item>
@@ -151,7 +151,7 @@
     <plato tipo="primeros">
       <nombre>Ensalada de tomate y mozzarella</nombre>
       <precio>6.00</precio>
-      <descripcion>Ensalada fresca de tomate, mozzarella de búfala, albahaca y aceite de oliva virgen extra.</descripcion>
+      <descripcion>Ensalada fresca de tomate, mozzarella de búfala, albahaca y aceite de oliva virgen extra</descripcion>
       <calorias>210</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -164,7 +164,7 @@
     <plato tipo="segundos">
       <nombre>Pulpo a la Gallega</nombre>
       <precio>14.00</precio>
-      <descripcion>Pulpo cocido y luego a la plancha, servido con aceite de oliva, pimentón y sal gruesa.</descripcion>
+      <descripcion>Pulpo cocido y luego a la plancha, servido con aceite de oliva, pimentón y sal gruesa</descripcion>
       <calorias>300</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -174,7 +174,7 @@
     <plato tipo="segundos">
       <nombre>Rabo de toro</nombre>
       <precio>18.00</precio>
-      <descripcion>Estofado de rabo de toro cocinado a fuego lento en vino tinto.</descripcion>
+      <descripcion>Estofado de rabo de toro cocinado a fuego lento en vino tinto</descripcion>
       <calorias>400</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -184,7 +184,7 @@
     <plato tipo="segundos">
       <nombre>Bacalao a la vizcaína</nombre>
       <precio>16.00</precio>
-      <descripcion>Bacalao desalado con una salsa de tomate, pimiento, cebolla y ajo.</descripcion>
+      <descripcion>Bacalao desalado con una salsa de tomate, pimiento, cebolla y ajo</descripcion>
       <calorias>350</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -194,7 +194,7 @@
     <plato tipo="segundos">
       <nombre>Chuletón de buey</nombre>
       <precio>28.00</precio>
-      <descripcion>Chuletón de buey a la parrilla, acompañado de patatas y pimientos.</descripcion>
+      <descripcion>Chuletón de buey a la parrilla, acompañado de patatas y pimientos</descripcion>
       <calorias>700</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -204,7 +204,7 @@
     <plato tipo="segundos">
       <nombre>Cordero asado</nombre>
       <precio>20.00</precio>
-      <descripcion>Pierna de cordero asada lentamente con hierbas aromáticas y ajo.</descripcion>
+      <descripcion>Pierna de cordero asada lentamente con hierbas aromáticas y ajo</descripcion>
       <calorias>550</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -214,7 +214,7 @@
     <plato tipo="segundos">
       <nombre>Merluza a la vasca</nombre>
       <precio>17.00</precio>
-      <descripcion>Merluza cocida en una salsa de aceite de oliva, ajos, guindilla y perejil.</descripcion>
+      <descripcion>Merluza cocida en una salsa de aceite de oliva, ajos, guindilla y perejil</descripcion>
       <calorias>320</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -226,7 +226,7 @@
     <plato tipo="postre">
       <nombre>Tarta de Santiago</nombre>
       <precio>6.00</precio>
-      <descripcion>Tarta de almendras típica de Galicia con azúcar glas.</descripcion>
+      <descripcion>Tarta de almendras típica de Galicia con azúcar glas</descripcion>
       <calorias>350</calorias>
       <caracteristicas>
         <item>sin gluten</item>
@@ -237,7 +237,7 @@
     <plato tipo="postre">
       <nombre>Flan de huevo</nombre>
       <precio>4.50</precio>
-      <descripcion>Delicioso flan casero de huevo bañado en caramelo.</descripcion>
+      <descripcion>Delicioso flan casero de huevo bañado en caramelo</descripcion>
       <calorias>200</calorias>
       <caracteristicas>
         <item>lácteo</item>
@@ -247,7 +247,7 @@
     <plato tipo="postre">
       <nombre>Tiramisú</nombre>
       <precio>7.00</precio>
-      <descripcion>Postre italiano hecho con capas de bizcocho de café, mascarpone y cacao.</descripcion>
+      <descripcion>Postre italiano hecho con capas de bizcocho de café, mascarpone y cacao</descripcion>
       <calorias>380</calorias>
       <caracteristicas>
         <item>lácteo</item>
@@ -257,7 +257,7 @@
     <plato tipo="postre">
       <nombre>Crema catalana</nombre>
       <precio>5.50</precio>
-      <descripcion>Postre tradicional catalán con base de crema y azúcar caramelizado.</descripcion>
+      <descripcion>Postre tradicional catalán con base de crema y azúcar caramelizado</descripcion>
       <calorias>280</calorias>
       <caracteristicas>
         <item>lácteo</item>
@@ -267,7 +267,7 @@
     <plato tipo="postre">
       <nombre>Helado de tres sabores</nombre>
       <precio>5.00</precio>
-      <descripcion>Combinación de helado de vainilla, chocolate y fresa.</descripcion>
+      <descripcion>Combinación de helado de vainilla, chocolate y fresa</descripcion>
       <calorias>250</calorias>
       <caracteristicas>
         <item>lácteo</item>
@@ -279,17 +279,17 @@
     <plato tipo="vino">
       <nombre>Rioja Crianza</nombre>
       <precio>20.00</precio>
-      <descripcion>Vino tinto Rioja crianza, añada 2016.</descripcion>
+      <descripcion>Vino tinto Rioja crianza, añada 2016</descripcion>
       <calorias>120</calorias>
       <caracteristicas>
-        <item>vino tinto</item>
+        <item>vino</item>
       </caracteristicas>
     </plato>
     
     <plato tipo="vino">
       <nombre>Albariño</nombre>
       <precio>18.00</precio>
-      <descripcion>Vino blanco Albariño, D.O. Rías Baixas.</descripcion>
+      <descripcion>Vino blanco Albariño, D.O. Rías Baixas</descripcion>
       <calorias>110</calorias>
       <caracteristicas>
         <item>vino blanco</item>
@@ -299,20 +299,20 @@
     <plato tipo="vino">
       <nombre>Cava Brut Nature</nombre>
       <precio>25.00</precio>
-      <descripcion>Cava espumoso Brut Nature, ideal para brindar en celebraciones.</descripcion>
+      <descripcion>Cava espumoso Brut Nature, ideal para brindar en celebraciones</descripcion>
       <calorias>90</calorias>
       <caracteristicas>
-        <item>vino espumoso</item>
+        <item>vino</item>
       </caracteristicas>
     </plato>
     
     <plato tipo="vino">
       <nombre>Rueda Verdejo</nombre>
       <precio>16.00</precio>
-      <descripcion>Vino blanco Rueda Verdejo, fresco y afrutado.</descripcion>
+      <descripcion>Vino blanco Rueda Verdejo, fresco y afrutado</descripcion>
       <calorias>100</calorias>
       <caracteristicas>
-       <item>vino espumoso</item>
+       <item>vino</item>
        </caracteristicas>
     </plato>
 
