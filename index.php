@@ -9,7 +9,6 @@
     <title>Carta</title>
 </head>
 <body>
-
 <?php
     // Si existe el archivo recuperamos los datos sino mostrar error
     if(file_exists('./xml/carta.xml')){
@@ -18,14 +17,16 @@
         exit('Error abriendo carta.xml');
     }
 ?>
+<h1 class="titulo"> El Rincón Ibérico </h1>
+<hr>
 <div class="container"> <!-- Apertura div general-->
     <div class="col-1"> <!-- Apertura col-1-->
-     <h1> Tapas </h1> <!-- Parte de Tapas-->
+     <h1 class="tapas"> Tapas </h1> <!-- Parte de Tapas-->
         <?php
             //foreach para las tapas
             foreach($platos ->plato as $fila ){
                 if((string)$fila['tipo'] == "tapas"  ){
-                    echo $fila->nombre . " " .$fila->precio . "€ <br>";
+                    echo $fila->nombre . "\t\t\t" .$fila->precio . "€ <br>";
                     echo $fila->descripcion . " Calorías: " . $fila->calorias;
                     foreach($fila->caracteristicas->item as $caracteristica){
                         if($caracteristica == "sin gluten"  ){
@@ -55,7 +56,7 @@
 
 
     <div class="col-2"> <!-- Apertura col-2-->
-    <h1> Primeros </h1> <!-- Parte de primeros-->
+    <h1 class="primeros"> Primeros  </h1> <!-- Parte de primeros-->
         <?php
             //foreach para primeros
             foreach($platos ->plato as $fila ){
@@ -86,7 +87,8 @@
             }
         }
         ?>
-        <h1> Segundos </h1>  <!-- Parte de segundos-->
+        <br>
+        <h1 class="segundos"> Segundos </h1>  <!-- Parte de segundos-->
         <?php
             //foreach para segundos
             foreach($platos ->plato as $fila ){
@@ -121,7 +123,7 @@
     </div>  <!-- Cierre col-2-->
 
     <div class="col-3">  <!-- Abro col-3-->
-    <h1> Postres </h1>  <!-- Parte de postres-->
+    <h1 class="postres"> Postres </h1>  <!-- Parte de postres-->
         <?php
             //foreach para postres
             foreach($platos ->plato as $fila ){
@@ -152,8 +154,9 @@
             }
         }
         ?>
+    <br>
 
-    <h1> Vinos</h1> <!-- Parte de vinos-->
+    <h1 class="vinos"> Vinos</h1> <!-- Parte de vinos-->
         <?php
             //foreach para vinos
             foreach($platos ->plato as $fila ){

@@ -1,25 +1,76 @@
- 
+ body{
+    background-color:#FFE4B5;
+    font-family: Palatino;
+ }
+
+ .titulo{
+    text-align: center;
+ }
+
 .container{
     display: flex;
     width: 100%;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 
 .col-1{
-    background-color: yellow ;
+    /* background-color: yellow ; */
     width: 33.3%;
-    border:1px solid black;
+    /* border:1px solid black; */
+    /* margin-top: 2%; */
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 .col-2{
-    background-color: red;
+    /* background-color: red; */
     width: 33.3%;
-    border:1px solid black;
+    /* border:1px solid black; */
+    /* margin-top: 2%; */
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
 .col-3{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 33.3%;
-    border:1px solid black;
+    /* border:1px solid black; */
+    /* margin-top: 2%; */
+    margin-left: 2%;
+    margin-bottom: 2%;
+    /* margin-right: 2%; */
 }
+
+.tapas{
+    color:rgb(75, 75, 173);
+    font-family: Palatino;
+}
+
+.primeros{
+    color:rgb(75, 75, 173);
+    font-family: Palatino;
+}
+.segundos{
+    color:rgb(75, 75, 173);
+    font-family: Palatino;
+}
+.postres{
+    color:rgb(75, 75, 173);
+    font-family: Palatino;
+}
+.vinos{
+    color:rgb(75, 75, 173);
+    font-family: Palatino;
+}
+
+
+
+/* @media only screen and (max-width: 600px) {
+    .container {
+        text-align: center;
+      }
+  } */
+  
 
 
 
