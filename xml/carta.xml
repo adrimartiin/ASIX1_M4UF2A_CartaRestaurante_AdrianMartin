@@ -214,7 +214,7 @@
     
     <plato tipo="postre">
       <nombre>Crema catalana</nombre>
-      <precio>5.50</precio>
+      <precio>        5.50</precio>
       <descripcion>Postre de crema y azúcar caramelizado</descripcion>
       <calorias>280</calorias>
       <caracteristicas>

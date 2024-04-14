@@ -17,6 +17,7 @@
         exit('Error abriendo carta.xml');
     }
 ?>
+<!-- <h1 class="titulo"> El Rincón Ibérico </h1> -->
 <h1 class="titulo"> El Rincón Ibérico </h1>
 <hr>
 <div class="container"> <!-- Apertura div general-->
